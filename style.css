@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Risque", serif;
+}
+
+body {
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid #68aab3;
+    backdrop-filter: blur(100px);
+    border-radius: 30px;
+    padding: 30px 40px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(90, 200, 255);
+    border-radius: 16px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    margin-bottom: 5px;
+}
+
+.input-container input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.input-container img {
+    position: absolute;
+    right: 12px;
+    width: 28px;
+    height: auto;
+    top: 12px;
+}
+
+.input-container a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #3D33FF;
+    text-decoration: none;
+
+}
+
+.input-container a:hover {
+    text-decoration: underline;
+    color: #68aab3;
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    background-color: #9abdc2;
+    border: none;
+    border-radius: 16px;
+    color: #3D33FF;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #627477;
+    font-size: 20px;
+}
+
+.register {
+    margin-top: 20px;
+    margin-left: 14%;
+}
+
+.register a {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.register:hover a {
+    font-size: 18px;
+    color: #3D33FF;
+}
+
+.register p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.input-container a {
+    color: #000;
+    font-size: 16px;
+    margin-left: 50%;
+
+}
+
+.input-container:hover a {
+    font-size: 18px;
+    color: #000;
+}
+
+.social-links img {
+    width: 50px;
+    margin-left: 22%;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+
+    .container {
+        margin: 20px 20px;
+    }
+
+    .input-container a {
+        margin-left: 20px
+    }
+
+
+}
