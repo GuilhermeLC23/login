@@ -1,4 +1,4 @@
-<h1>Livraria DevClub</h1>
+<h1>Login</h1>
 <br>
 <h2>Esse projeto eu criei usando os conhecimentos aprendidos pelo curso <a href="https://rodolfomori.com.br/devclub/">DevClub</a></h2>
 <p>DevClub não é apenas um curso de Programação. É uma formação de profissionais com um propósito ainda maior. Fazer parte da Comunidade DevClub é estar disposto a buscar uma melhor versão de você mesmo.</p>
@@ -12,4 +12,4 @@
 
 <a href='https://livrariadevclubglc.netlify.app/'>Site On-line</a>
 
-<img src="https://github.com/GuilhermeLC23/Site-livraria/blob/main/assets/img-site.png?raw=true" alt="projeto">
+<img src="https://github.com/GuilhermeLC23/login/blob/main/assets/img-site.png?raw=true" alt="projeto">
